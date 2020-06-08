@@ -16,4 +16,4 @@ malicious activity that compromises systems or diminishes service.
 
 alert_help_message = """
 The alerts are Red, Orange, and Yellow. You can also say 'help'
-"""
+""" 
