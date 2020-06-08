@@ -26,7 +26,7 @@ def validate(event,context):
     if alert_level.lower() not in ['red', 'orange', 'yellow']:
         print('NOT IN CHOICES')
         return {
-            'sessionAttributes': session_attributes,
+            'sessionAttributes': session_attributes, 
             'dialogAction': {
                 'type': 'ElicitSlot',
                 'intentName': event['currentIntent']['name'],
