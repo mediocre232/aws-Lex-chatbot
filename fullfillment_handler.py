@@ -1,4 +1,4 @@
-import alerts
+import alerts 
 
 
 def handler(event, context):
