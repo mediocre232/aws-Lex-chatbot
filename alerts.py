@@ -1,4 +1,4 @@
-import boto3
+import boto3 
 
 ses = boto3.client('ses')
 sns = boto3.client('sns')
